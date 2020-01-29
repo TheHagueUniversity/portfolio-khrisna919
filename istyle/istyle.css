@@ -35,16 +35,24 @@ section {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 0.33%;
-    border-width: 1px;
-    border-style: solid;
+
+}
+
+.button {
+    box-sizing: border-box;
+    width: 50%;
+    background-color: goldenrod;
+    border: 1px solid;
+    margin: 0;
+    display: inline-block;
+    color: floralwhite;
+    cursor: pointer;
 }
 
 
 footer {
     background-color: #868686;
     height: 50%;
-    border-width: 5px;
-    border-style: solid;
     text-align: center;
 }
 footer h2 {
@@ -62,10 +70,6 @@ footer p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.content {
-    border-width: 10px;
-    border-style: solid;
-}
 
 
 
