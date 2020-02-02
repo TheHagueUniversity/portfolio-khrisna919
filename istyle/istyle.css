@@ -14,6 +14,7 @@ body {
     font-size: 20px;
     background-color: gold;
     margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 /*-------------------------#####   N A V   ####-------------------------*/
 nav {
@@ -233,4 +234,11 @@ article p {
     display: inline-block;
     color: floralwhite;
     cursor: pointer;
+}
+.aboutMe {
+    text-align: center;
+    margin: 150px 150px;
+    padding: 50px;
+    background-color: white;
+    background-clip: padding-box;
 }
