@@ -22,6 +22,7 @@ nav {
     margin: 0;
     width: 100%;
     height: 7%;
+    position: fixed;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
@@ -36,11 +37,12 @@ nav div {
 
 header {
     background-color: #fff;
-    height: 75%;
+    /*height: 75%;*/
     text-align: center;
     padding-top: 100px;
     padding-left: 220px;
     padding-right: 220px;
+    padding-bottom: 220px;
     width: 100%;
 }
 
@@ -231,6 +233,7 @@ article p {
     border: 3px solid goldenrod;
     margin: 0;
     padding: 10px;
+    text-align: center;
     display: inline-block;
     color: floralwhite;
     cursor: pointer;
