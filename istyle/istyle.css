@@ -245,3 +245,48 @@ article p {
     background-color: white;
     background-clip: padding-box;
 }
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    section {
+        background-color: white;
+        height: 75%;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 100% 100% 100%;
+        grid-column-gap: 40px;
+        font-size: 75%;
+        padding:  35px 170px;
+        margin: 0;
+    }
+    .content {
+        border-style: solid;
+        border-color: gold;
+        width: 100%;
+    }
+
+    .content h2 {
+        margin: 0;
+        font-size: 200%;
+    }
+
+
+    .imgCon img {
+        width: 50%;
+        height: 50%;
+        margin: 30px
+    }
+
+    .button {
+        box-sizing: border-box;
+        width: 50%;
+        border: 3px solid goldenrod;
+        margin: 0;
+        padding: 10px;
+        margin-top: 50px;
+        display: inline-block;
+        color: floralwhite;
+        cursor: pointer;
+    }
+
+}
